@@ -38,7 +38,7 @@ jobs:
             cd /var/www/react-cicd
             git pull origin main
             rm -rf node_modules package-lock.json
-            npm install
+            npm ci
             npm run build
             sudo systemctl reload nginx
             echo "✅ Deployment completed successfully!"
