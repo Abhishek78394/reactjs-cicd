@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>React + Vite Dummy Project</h1>
+        <h1>React Dummy Project</h1>
         <div className="card">
           <button onClick={() => setCount((count) => count + 1)}>
             Count is {count}
